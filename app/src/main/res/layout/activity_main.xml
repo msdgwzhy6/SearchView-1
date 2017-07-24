@@ -10,7 +10,7 @@
     <com.searchview.SearchView
         android:id="@+id/search_view"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp80"
+        android:layout_height="@dimen/dp400"
         />
 
     <Button
