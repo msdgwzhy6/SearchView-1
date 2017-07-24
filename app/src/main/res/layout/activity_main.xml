@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.searchview.MainActivity">
+
+    <com.searchview.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp80"
+        />
+
+    <Button
+        android:id="@+id/btn_atart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始搜索"
+        />
+
+    <Button
+        android:id="@+id/btn_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止搜索"
+        />
+
+    <com.searchview.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp80"
+        app:circleVaule="80"
+        app:backgroundColor="@color/colorAccent"
+        app:paintColor="@color/colorPrimary"
+        app:paintStrokeWidth="10"
+        app:divisor="2.5"
+        />
+
+
+</LinearLayout>

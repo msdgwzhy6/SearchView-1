@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchView">
+        <attr name="circleVaule" format="float"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="paintColor" format="color"/>
+        <attr name="paintStrokeWidth" format="float"/>
+        <attr name="divisor" format="float"/>
+    </declare-styleable>
+</resources>
